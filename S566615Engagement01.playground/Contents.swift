@@ -69,7 +69,8 @@ if let ageInt = Int(ageString) {
     print("The Age after 3 years from now: \(futureAge)")
 }
 
-// 11.
+// 11. You are given a function that takes two parameters number1 and number2 and returns a String.  Assume both the numbers are positive integers. The goal of this function is to reverse number1 and number2, find their sum, reverse the sum, and return it as a String. Implement the following function.
+
 private func addTwoNumbers(number1: Int, number2: Int) -> String {
     func reverseNumber(_ num: Int) -> Int {
         return Int(String(String(num).reversed())) ?? 0
